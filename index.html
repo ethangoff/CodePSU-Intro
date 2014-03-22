@@ -22,7 +22,7 @@
     <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
         <span class="welcome">Welcome to</span>
         <img class="rotating" src="images/codepsu_wheel.png"/><img id="codepsu_text" src="images/codepsu_text.png"/>
-        <span class="subtitle positioning">Fall 2013</span>
+        <span class="subtitle positioning">Spring 2014</span>
     </div>
 
     <div id="acm" class="step" data-x="600" data-y="1800" data-rotate="90" data-scale="6">
@@ -38,17 +38,23 @@
         <p>and sponsored by:</p>
         <table>
             <tr>
-                <td><img class="cisco"     height="170px" src="images/cisco.png"/></td>
-                <td><img class="cap_one"   height="150px" src="images/cap_one.png"/></td>
+                <td><img class="cisco_"     height="120px" src="images/cisco.png"/></td>
+                <td><img class="cap_one_"   height="120px" src="images/cap_one.png"/></td>
             </tr><tr>
-                <td><img class="microsoft" height="65px"  src="images/microsoft.png"/></td>
-                <td><img class="booz"      height="95px"  src="images/booz.jpg"/></td>
+                <td><img class="liberty" height="95px"  src="images/liberty.png"/></td>
+                <td><img class="accenture"      height="95px"  src="images/accenture.png"/></td>
+            </tr><tr>
+                <td><img class="tata" height="95px"  src="images/tata.png"/></td>
+                <td><img class="air"      height="95px"  src="images/air.png"/></td>
+            </tr><tr>
+                <td><img class="microsoft_" height="65px"  src="images/microsoft.png"/></td>
+                <td><img class="intel_"      height="95px"  src="images/intel.png"/></td>
             </tr>
         </table>
     </div>
 
     <div id="food" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
-        <p>Before we start, check in if you haven't done so. We'll match up those without teams in a bit.</p>
+        <p>Before we start, check in if you haven't done so. Those without teams who would like to find others to join should head to room 222 <i>after</i> by 12:45.</p>
     </div>
 
     <div id="tech_start" class="step" data-x="7600" data-y="-300" data-scale="6">
@@ -81,23 +87,15 @@
     </div>
 
     <div class="step technical" data-x="7600" data-y="12000" data-rotate-x="150" data-scale="4">
-        <p>Do not prompt for input. Anything your program prints is considered output and will be judged.</p>
+        <p>Do not print to the console to prompt a 'user' for input. Anything your program prints is considered output and will be judged.</p>
     </div>
 
     <div class="step technical" data-x="7600" data-y="14000" data-rotate-x="160" data-scale="4">
         <p>Read each problem carefully and pay attention to the given input bounds.</p>
     </div>
 
-    <div class="step technical" data-x="3000" data-y="14000" data-rotate-x="160" data-rotate-y="180" data-scale="4">
-        <p>Finally, remember that competitive programming problems are difficult. Persistence pays off here.</p>
-    </div>
-
-    <div class="step" data-x="1000" data-y="4000" data-scale="4">
-        <p>For returning CodePSU competitors, we've made a few changes since last spring.</p>
-    </div>
-
     <div class="step" data-x="1000" data-y="5500" data-rotate-y="-20"  data-scale="4">
-        <p>We've switched to having two different problem packets. One packet for the advanced tier and one for the intermediate tier.
+        <p>We have two different problem packets. One packet for the advanced tier and one for the intermediate tier. If you have or are taking a 300-level or higher CMPSCI class (sans 360), you must compete in the advanced tier.</p>
     </div>
 
     <div class="step" data-x="1000" data-y="7000" data-rotate-y="-40"  data-scale="4">
@@ -118,11 +116,11 @@
     <div class="step" data-x="-3000" data-y="5000" data-z="1000" data-rotate-x="50" data-scale="4">
         <p>Here's a quick timeline:
             <ul>
-                <li>1.00-1.20: Check-in</li>
-                <li>1.20-1.45: Sponsor presentations</li>
-                <li>1.45-2.00: Submission system demo</li>
-                <li>2.00-6.00: Competition</li>
-                <li>6.00-7.00: Dinner and prizes</li>
+                <li>12:00-1:00: Registration</li>
+                <li>1:00-1:30: Sponsor presentations</li>
+                <li>1:30-2:00: Submission system demo</li>
+                <li>2:00-6:00: Competition</li>
+                <li>6:00-7:00: Dinner and prizes</li>
             </ul>
         </p>
     </div>
@@ -135,15 +133,15 @@
 
     <div id="source" class="step" data-x="-4000" data-y="2000" data-rotate="180" data-rotate-y="-90" data-scale="4">
         <p>ecs.csus.edu/pc2<br />
-            <span class="small scaling">or for this intro: github.com/shanet/codepsu-intro</span>
+            <span class="small scaling">or for this intro: github.com/ethangoff/codepsu-intro</span>
         </p>
     </div>
 
 
     <div class="step" data-x="-4000" data-y="0" data-rotate="180" data-scale="4">
-        <p>We have hundreds of dollars in prizes and CodePSU shirts to give away.
+        <p>We have thousands of dollars in prizes and CodePSU shirts to give away.
             <br />
-            <span class="small">Not to mention all the food</span>
+            <span class="small">Not to mention all the food.</span>
         </p>
     </div>
 
@@ -163,12 +161,12 @@
 <script>
     function nextStep() {
         impress().next();
-        setTimeout("nextStep()", 5000);
+        setTimeout("nextStep()", 8000);
     }
         
     impress().init();
     document.getElementById("audio").play();
-    setTimeout("nextStep()", 5000);
+    setTimeout("nextStep()", 8000);
 </script>
 
 </body>
