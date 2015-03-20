@@ -1,0 +1,168 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <title>Welcome to CodePSU!</title>
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link href="css/impress-demo.css" rel="stylesheet" />
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Firefox</b>, <b>Chrome</b>, or <b>Safari</b> browser.</p>
+</div>
+
+<div id="impress">
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
+        <span class="welcome">Welcome to</span>
+        <img class="rotating" src="images/codepsu_wheel.png"/><img id="codepsu_text" src="images/codepsu_text.png"/>
+        <span class="subtitle positioning">2015</span>
+    </div>
+
+    <div id="acm" class="step" data-x="600" data-y="1800" data-rotate="90" data-scale="6">
+        <p><span class="small">Organized by:</span>
+        <br />
+        Penn State
+        <br /><br />
+        <img class="scaling" height="150px" src="images/acm.png"/>
+        <img class="scaling" height="150px" src="images/awc.png"/></p>
+    </div>
+
+    <div id="sponsors" class="step" data-x="1900" data-y="1800" data-z="-3000" data-rotate="300" data-scale="1">
+        <p>and sponsored by:</p>
+        <table>
+            <tr>
+                <td><img class="bah_ "     height="120px" src="images/bah.png"/></td>
+                <td><img class="cap_one_"   height="80px" src="images/cap_one.png"/></td>
+                <td><img class="unisys" height="100px"  src="images/unisys.png"/></td>
+            </tr><tr>
+                <td><img class="accenture"      height="65px"  src="images/accenture.png"/></td>
+                <td><img class="xerox" height="95px"  src="images/xerox.png"/></td>
+                <td><img class="air"      height="65px"  src="images/air.png"/></td>
+            </tr><tr>
+                <td><img class="textron" height="95px"  src="images/textron.png"/></td>
+                <td><img class="ARM"      height="65px"  src="images/arm.png"/></td>
+                 <td><img class="optum" height="95px"  src="images/optum.png"/></td>
+            </tr><tr>
+                <td><img class="intel_"      height="85px"  src="images/intel.png"/></td>
+                <td><img class="microsoft_" height="55px"  src="images/microsoft.png"/></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="food" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="6">
+        <p>Before we start, check in if you haven't done so. This year, due to a major surge in participation, we'll be situating competitors both in IST and Walker building - we'll direct you to the right room. You need to be in your assigned room by 12:55.</p>
+    </div>
+
+    <div id="tech_start" class="step" data-x="7600" data-y="-300" data-scale="6">
+        <p>Let's go over a few technical items to avoid confusion.</p>
+    </div>
+
+    <div class="step technical" data-x="7600" data-y="1000" data-rotate-x="90" data-scale="4">
+        <p>You may only use 1 computer for your team at any time. It should either be running the Virtual Machine we've preconfigured for the competition (goo.gl/PFsC5U) OR have the submission system setup manually, if you choose.</p>
+    </div>
+
+    <div class="step technical" data-x="7600" data-y="6000" data-rotate-x="100" data-scale="4">
+        <p>If you choose to setup the submission system manually, we (the judges) can not provide you with technical support regarding the setup. If you're new to CodePSU, please consider using the VM.
+        <br />
+        <span class="small">Regardless of your environment, all code to be judged is auto-compiled on a bare bones linux system - we'll only be using standard libraries/equivalent for each respective language, so you must do the same.</span></p>
+    </div>
+
+    <div class="step technical" data-x="7600" data-y="7000" data-rotate-z="90" data-scale="4">
+        <p>All submissions are subject to a secret time limit; take too long, and your process is killed.
+        <br />
+        <span class="small">Hint: Efficient code.</span></p>
+    </div>
+
+    <div class="step technical" data-x="8000" data-y="10000" data-rotate-z="180" data-scale="4">
+        <p>If you use C or C++, you must use `int main()` rather than `void main()` and <span class="never">NEVER</span> use `system("pause")`.</p>
+    </div>
+
+    <div class="step technical" data-x="9500" data-y="10000" data-rotate-x="90" data-scale="4">
+        <p>If you need `stdlib.h` or `math.h`/`cmath` you <strong>MUST</strong> explicitly `#include` these even though Visual Studio does not enforce this.</p>
+        <span class="small">Hint: Just include these header files in every submission.</span>
+    </div>
+
+    <div class="step technical" data-x="7600" data-y="12000" data-rotate-x="150" data-scale="4">
+        <p>Do not print to the console to prompt a 'user' for input. Anything your program prints is considered output and will be judged.</p>
+    </div>
+
+    <div class="step technical" data-x="7600" data-y="14000" data-rotate-x="160" data-scale="4">
+        <p>Read each problem carefully and pay attention to the given input bounds.</p>
+    </div>
+
+    <div class="step hide" data-x="1000" data-y="5500" data-rotate-y="-20"  data-scale="4">
+        <p>We have two different problem packets. One packet for the advanced tier and one for the intermediate tier. If you have or are taking a 300-level or higher CMPSCI class (sans 360), you must compete in the advanced tier.</p>
+    </div>
+
+    <div class="step hide" data-x="1000" data-y="7000" data-rotate-y="-40"  data-scale="4">
+        <p>In order to be more like the ACM's ICPC, all problems are weighted equally.</p>
+    </div>
+
+    <div class="step" data-x="1000" data-y="7000" data-rotate-y="-200"  data-scale="4">
+		<p>You'll need to download the pre-configured Virtual Machine which includes the submission system (Recommended) OR setup the submission system manually.
+    </div>
+
+    <div class="step" data-x="1000" data-y="10000" data-rotate-y="-80" data-scale="4">
+	<br />VM (Usable with VirtualBox) :
+        <br /><a href="goo.gl/PFsC5U">http://goo.gl/PFsC5U</a>.
+	<br />Submission system for Windows:
+        <br /><a href="http://codepsu.com/site/windows.zip">http://bit.ly/1cUZjjT</a>.
+	<br />Submission system for Mac / Linux:
+        <br /><a href="http://codepsu.com/site/mac.zip">http://bit.ly/1cUZjjT</a>.
+        <br />
+        Again, we'd recommend using the VM, and we can't help you configure the submission system manually.</p>
+    </div>
+
+    <div class="step" data-x="-3000" data-y="5000" data-z="1000" data-rotate-x="50" data-scale="4">
+        <p>Here's a quick timeline:
+            <ul>
+                <li>11:00-12:30: Nibbles and Bites</li>
+                <li>12:00-1:00: Registration</li>
+                <li>1:00-1:30: Sponsor presentations</li>
+                <li>1:30-2:00: Submission system demo</li>
+                <li>2:00-6:00: Competition</li>
+                <li>6:00-7:00: Dinner and prizes</li>
+            </ul>
+        </p>
+    </div>
+
+    <div class="step" data-x="-4000" data-y="0" data-rotate="180" data-scale="4">
+        <p>We have thousands of dollars in prizes and CodePSU shirts to give away.
+            <br />
+            <span class="small">Not to mention all the food.</span>
+        </p>
+    </div>
+
+    <div class="step" data-x="-4000" data-y="0" data-rotate-x="90" data-rotate="180" data-scale="4">
+        <p>So get ready! We'll be starting soon.</p>
+    </div>
+
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="15"></div>
+
+</div>
+
+<audio id="audio" loop="loop">
+  <source src="music/1.mp3" type="audio/mp3">
+</audio>
+
+<script src="js/impress.js"></script>
+<script>
+    function nextStep() {
+        impress().next();
+        setTimeout("nextStep()", 8000);
+    }
+
+    impress().init();
+    document.getElementById("audio").play();
+    setTimeout("nextStep()", 8000);
+</script>
+
+</body>
+</html>
